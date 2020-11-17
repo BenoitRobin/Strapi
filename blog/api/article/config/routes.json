@@ -18,7 +18,7 @@
     },
     {
       "method": "GET",
-      "path": "/articles/:id",
+      "path": "/articles/:id(\\d)",
       "handler": "article.findOne",
       "config": {
         "policies": []
@@ -47,6 +47,15 @@
       "config": {
         "policies": []
       }
+    },
+    {
+      "method": "GET",
+      "path": "/articles/:categoryName",
+      "handler": "article.findByCategoryName",
+      "config": {
+        "policies": []
+      }
     }
+
   ]
 }
