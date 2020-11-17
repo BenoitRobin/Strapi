@@ -1,4 +1,4 @@
-# À la découverte du CMS Strapi
+# CMS Strapi
 
 Enfin, CMS... Strapi, c'est en fait un _headless CMS_, un CMS sans _front_ :woman_shrugging:
 
